@@ -13,5 +13,5 @@ Use `make` in combination with `clang++`. The makefile(at least on my system) on
 It's inconvenient but again, this was written out of laziness.
 
 ## Usage
-`tmx2nes -f input.tmx -c palettenumber -o output.map`
-All three flags are needed, else tmx2snes will not execute.
+`tmx2nes -f input.tmx -o output.map`
+Both flags are needed, else tmx2nes will not execute.
