@@ -11,7 +11,7 @@ BLDDIR=build
 
 SOURCES=$(wildcard $(SRCDIR)/*.cpp)
 OBJECTS=$(patsubst $(SRCDIR)/%.cpp, $(OBJDIR)/%.o, $(SOURCES))
-EXECUTABLE=$(BLDDIR)/tmx2snes
+EXECUTABLE=$(BLDDIR)/tmx2nes
 
 default: $(EXECUTABLE)
 
